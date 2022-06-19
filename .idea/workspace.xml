@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06eaae16-293a-44bc-a934-7d6e1f730ab2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/.keep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <workItem from="1655635631569" duration="30000" />
       <workItem from="1655635673336" duration="15000" />
       <workItem from="1655635697129" duration="92000" />
-      <workItem from="1655635990243" duration="1354000" />
+      <workItem from="1655635990243" duration="1628000" />
     </task>
     <servers />
   </component>

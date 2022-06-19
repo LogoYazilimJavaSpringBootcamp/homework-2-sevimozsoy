@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Homework-2
 
 ## Java dünyasındaki framework’ler ve çözdükleri problemler nedir?(Spring MVC, JSP, Struct, Vaadin). Örnekler ile açıklayın.
@@ -110,3 +111,6 @@ patterni ile oluşacak şekilde düzenleyin. (25 Puan)
 
 • Singleton ve AbstractFactory patterlerini implemente eden kodu yazın.(25 Puan)
 >>>>>>> 373b5fef91564cfe8b9085f1546fb90b1a87b381
+=======
+
+>>>>>>> 0daa51820796917feef62824eac1e1be9570afc7
