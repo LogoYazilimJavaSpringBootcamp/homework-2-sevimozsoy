@@ -4,7 +4,6 @@ public class Order {
     private int orderId;
     private int orderTotalPrice;
 
-
     public Order(int orderId, int orderTotalPrice) {
         this.orderId = orderId;
         this.orderTotalPrice = orderTotalPrice;

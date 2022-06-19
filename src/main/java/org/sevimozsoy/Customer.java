@@ -9,10 +9,10 @@ public class Customer {
     final Calendar signedUp = Calendar.getInstance();
     List<Order> orderList;
     private String name;
-
-    public Customer() {}
-
     private String surname;
+
+    public Customer() {
+    }
 
     Customer(String name, String surname, int day, int month, int year, List<Order> orderList) {
         this.name = name;
@@ -29,7 +29,7 @@ public class Customer {
     }
 
 
-    public int getSignedUp(){
+    public int getSignedUp() {
         return (signedUp.get(Calendar.MONTH));
     }
 

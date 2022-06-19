@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Homework-2
 
 ## Java dünyasındaki framework’ler ve çözdükleri problemler nedir?(Spring MVC, JSP, Struct, Vaadin). Örnekler ile açıklayın.
@@ -89,28 +88,19 @@ MVC, uygulamayı yazarken mantık, kontrol ve bilgilerin displaylendiği kısım
 Controller'lara gelen isteklerin düzgün şekilde iletilmesini handler ile sağlayan bir pattern'dır. Bu handler authentication/ authorization/ logging gibi işlemlerin takip eder ve gerekli Controller'lara iletir.
 
 
+## Creational Patterns neler? Önceki ödevde oluşturulan nesnelerinizi factory Design patterni ile oluşacak şekilde düzenleyin.
 
+Creational Pattern'leri nesnelerin yaratılışı ile ilgili yaklaşımlar içerir. Projenin içerisinde nesnelere çok farklı şekillerde ihtiyaç duyuyoruz, bu nedenle kullanım yerleri farklı olan nesnelerin yaratılışı da farklı oluyor. Bu pattern'de hangi nesnenin nerde çağırılması uygun nesnenini çağırılmasını ve gerekli durumlarda yaratılmasını sağlar.
 
-## Creational Patterns neler? Önceki ödevde oluşturulan nesnelerinizi factory Design patterni ile oluşacak şekilde düzenleyin. (25 Puan)
+5 adet pattern bulunur.
+
+    **1.Factory Method:** Nesnenin yaratılışı subclass'lara bırakılmıştır. Tek bir interface üzerinden nesne üretimi gerçekleştirilir. 
+    **2.Abstract Factory Pattern:** Yapısal olarak birbirine benzer nesnelerin ortak bir ara katmandan yönetilmesini sağlayan bir patterndir.
+    **3.Singleton Design Pattern:** Nesnenin sadece bir kere yaratılmasını sağlayan patterndir.
+    **4.Builder Design Pattern:** Factory metot gibi sadece tek bir arayüz kullanılır ve karışık bir nesne grubundan parçalar yaratılmasını sağlar.
+    **5.Prototype Design Pattern:** Bir classın, kendisinden yaratılacak nesneler için prototip görevini gördüğü patterndir.
+
+**Eski kodlarımı src dosyasının altında düzenledim. Geçtiğimiz hafta bilmeden ve istemeden uygulamaış gibi olmuşun factory pattern'i bu yüzden fazla bir değişiklik olmadı :)**
 
 ## Singleton ve AbstractFactory patterlerini implemente eden kodu yazın.(25 Puan)
-=======
-# homework-2
 
-Java dünyasındaki framework’ler ve çözdükleri problemler nedir?(Spring MVC, JSP,
-Struct, Vaadin). Örnekler ile açıklayın. (20 Puan)
-
-• Katmanlı mimari nedir? (10 Puan)
-
-• Garbage collector nedir, nasıl çalışır? Diğer C++ ile karşılaştırın. (10 Puan)
-
-• Spring frameworkünün kullandığı design patternlar neler? (10 Puan)
-
-• Creational Patterns neler? Önceki ödevde oluşturulan nesnelerinizi factory Design
-patterni ile oluşacak şekilde düzenleyin. (25 Puan)
-
-• Singleton ve AbstractFactory patterlerini implemente eden kodu yazın.(25 Puan)
->>>>>>> 373b5fef91564cfe8b9085f1546fb90b1a87b381
-=======
-
->>>>>>> 0daa51820796917feef62824eac1e1be9570afc7

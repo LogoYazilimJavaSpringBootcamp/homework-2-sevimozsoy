@@ -5,14 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06eaae16-293a-44bc-a934-7d6e1f730ab2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/OperationFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/CustomerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/CustomerOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/OrderOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/OrderOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/getAllInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sevimozsoy/OperationI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/CustomerOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sevimozsoy/CustomerOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sevimozsoy/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/OrderOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sevimozsoy/OrderOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sevimozsoy/getAllInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,12 +58,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/sevim/Desktop/logoSpringBootBootcamp/week2"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.sevimozsoy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sevimozsoy.Main" />
       <module name="week2" />
       <extension name="coverage">
@@ -57,7 +79,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.sevimozsoy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -72,7 +94,7 @@
       <workItem from="1655635631569" duration="30000" />
       <workItem from="1655635673336" duration="15000" />
       <workItem from="1655635697129" duration="92000" />
-      <workItem from="1655635990243" duration="1628000" />
+      <workItem from="1655635990243" duration="7414000" />
     </task>
     <servers />
   </component>

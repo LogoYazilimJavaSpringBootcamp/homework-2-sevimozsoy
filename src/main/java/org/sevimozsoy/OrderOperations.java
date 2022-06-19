@@ -9,11 +9,12 @@ import java.util.stream.Collectors;
 import static org.sevimozsoy.CustomerOperations.customer;
 import static org.sevimozsoy.CustomerOperations.customerList;
 
-public class OrderOperations {
+public class OrderOperations implements OperationI {
     static List<Order> orderList = new ArrayList<>();
 
 
-    public void setOldOrders() {
+    @Override
+    public void setInitialize() {
         orderList.add(new Order(1, 1200));
         orderList.add(new Order(2, 1600));
         orderList.add(new Order(3, 1700));
@@ -37,6 +38,7 @@ public class OrderOperations {
         System.out.println(sum / average.size());
     }
 
+    @Override
     public void getAll() {
         orderList.stream().map(Order::getOrderId).forEach(System.out::println);
     }

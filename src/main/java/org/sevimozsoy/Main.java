@@ -9,20 +9,24 @@ public class Main
 
     public static void main( String[] args )
     {
+        OperationFactory operationFactory = new OperationFactory();
         CustomerOperations customerOperations = new CustomerOperations();
         OrderOperations orderOperations = new OrderOperations();
 
         //Müşteri listesi oluştur
-        customerOperations.setPreviousCustomers();
+        //Factory Design Pattern Kullanıldı.
+        OperationI operationCustomer = operationFactory.getOperation("CUSTOMER");
+        operationCustomer.setInitialize();
 
         //Order Listesi Oluştur
-        orderOperations.setOldOrders();
+        OperationI operationOrder = operationFactory.getOperation("ORDER");
+        operationOrder.setInitialize();
 
         //Müşteri ekle
         customerOperations.addNewCustomer("Onur", "Soyisim", 10, 2, 2019);
 
         //Tüm müşterileri listele
-        customerOperations.getAll();
+        operationCustomer.getAll();
 
         //İsminde C olan müşteriler
         customerOperations.getCustomerNamesWithC();
@@ -33,7 +37,7 @@ public class Main
         orderOperations.createNewOrder(new Order(6,1600),"Berkay");
 
         //Tüm faturaları(n id'lerini) listele
-        orderOperations.getAll();
+        operationOrder.getAll();
 
         //Fatura id = Fatura tutarı --> 1500'den büyük olanlar
         System.out.println(orderOperations.listExpensiveOrders());
