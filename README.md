@@ -88,7 +88,7 @@ MVC, uygulamayı yazarken mantık, kontrol ve bilgilerin displaylendiği kısım
 Controller'lara gelen isteklerin düzgün şekilde iletilmesini handler ile sağlayan bir pattern'dır. Bu handler authentication/ authorization/ logging gibi işlemlerin takip eder ve gerekli Controller'lara iletir.
 
 
-## Creational Patterns neler? Önceki ödevde oluşturulan nesnelerinizi factory Design patterni ile oluşacak şekilde düzenleyin.
+## Prototype Design Pattern neler? Önceki ödevde oluşturulan nesnelerinizi factory Design patterni ile oluşacak şekilde düzenleyin.
 
 Creational Pattern'leri nesnelerin yaratılışı ile ilgili yaklaşımlar içerir. Projenin içerisinde nesnelere çok farklı şekillerde ihtiyaç duyuyoruz, bu nedenle kullanım yerleri farklı olan nesnelerin yaratılışı da farklı oluyor. Bu pattern'de hangi nesnenin nerde çağırılması uygun nesnenini çağırılmasını ve gerekli durumlarda yaratılmasını sağlar.
 
@@ -102,5 +102,6 @@ Creational Pattern'leri nesnelerin yaratılışı ile ilgili yaklaşımlar içer
 
 **Eski kodlarımı src dosyasının altında düzenledim. Geçtiğimiz hafta bilmeden ve istemeden uygulamaış gibi olmuşun factory pattern'i bu yüzden fazla bir değişiklik olmadı :)**
 
-## Singleton ve AbstractFactory patterlerini implemente eden kodu yazın.(25 Puan)
+## Singleton ve AbstractFactory patterlerini implemente eden kodu yazın.
+**Bu sorunun kodları src dosyasının altında bulunan week2 adlı paketin altında bulunuyor.**
 

@@ -1,4 +1,4 @@
-package org.sevimozsoy;
+package org.week1;
 
 public class OperationFactory {
 

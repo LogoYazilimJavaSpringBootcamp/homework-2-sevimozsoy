@@ -1,13 +1,12 @@
-package org.sevimozsoy;
+package org.week1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.stream.Collectors;
 
-import static org.sevimozsoy.CustomerOperations.customer;
-import static org.sevimozsoy.CustomerOperations.customerList;
+import static org.week1.CustomerOperations.customer;
+import static org.week1.CustomerOperations.customerList;
 
 public class OrderOperations implements OperationI {
     static List<Order> orderList = new ArrayList<>();
